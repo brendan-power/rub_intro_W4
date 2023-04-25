@@ -15,3 +15,28 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+
+
+my_list = ["milk", "eggs", "bacon"]
+friend_list = ["beer", "cookies", "apples"]
+
+my_list.push("beer")
+
+combined_list = my_list + friend_list
+
+sorted_combined_list = combined_list.sort
+
+sorted_unique_combined_list = sorted_combined_list.uniq
+
+
+puts "buy #{sorted_unique_combined_list[0]}"
+puts "buy #{sorted_unique_combined_list[1]}"
+puts "buy #{sorted_unique_combined_list[2]}"
+puts "buy #{sorted_unique_combined_list[3]}"
+puts "buy #{sorted_unique_combined_list[4]}"
+puts "buy #{sorted_unique_combined_list[5]}"
+puts "buy #{sorted_unique_combined_list[6]}"
+puts "buy #{sorted_unique_combined_list[7]}"
+puts "buy #{sorted_unique_combined_list[8]}"
+puts "buy #{sorted_unique_combined_list[9]}"
